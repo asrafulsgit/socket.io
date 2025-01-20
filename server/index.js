@@ -10,7 +10,7 @@ const server = http.createServer(app);
 // socket server
 const io = new Server(server,{
      cors: {
-          origin: 'http://localhost:5173', // Replace with your React frontend's URL
+          origin: 'http://localhost:5173', 
           methods: ['GET', 'POST'],
         },
 });
