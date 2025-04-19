@@ -23,7 +23,7 @@ app.use(cors());
 // http apis
 app.get('/',(req,res)=>{
      res.send('hello guess')
-});
+}); 
 
 // socket apis
 io.on('connection',(socket)=>{
